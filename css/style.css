@@ -55,6 +55,7 @@ h2 {
 
 .mainMenu ul li a {
     text-decoration: none;
+    color: white;
     padding: 10px;
 }
 
@@ -150,16 +151,10 @@ h2 {
 .descriptionAboutSkills {
     display: flex;
     justify-content: center;
-    height: 150px;
-    background: mediumpurple;
-}
-
-.descriptionAboutSkills__first,
-.descriptionAboutSkills__second {
-    display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+    padding: 30px;
+    margin: 50px;
+    background: mediumpurple;
 }
 
 .blockSkills {
@@ -497,11 +492,11 @@ footer {
 }
 
 @media (max-width: 980px) {
-    .descriptionAboutSkills {
-        flex-direction: column;
-        gap: 30px;
-        height: 200px;
-    }
+    /*.descriptionAboutSkills {*/
+    /*    flex-direction: column;*/
+    /*    gap: 30px;*/
+    /*    height: 200px;*/
+    /*}*/
 
     footer {
         gap: 175px;
@@ -594,22 +589,26 @@ footer {
     }
 
     .Author {
-        line-height: 22px;
+        line-height: 18px;
+    }
+
+    .Author p {
+        font-size: 14px;
     }
 }
 
 @media (max-width: 500px) {
-    .descriptionAboutSkills {
-        height: 600px;
-        margin: 15px;
-        border-radius: 15px;
-    }
+    /*.descriptionAboutSkills {*/
+    /*    height: 600px;*/
+    /*    margin: 15px;*/
+    /*    border-radius: 15px;*/
+    /*}*/
 
-    .descriptionAboutSkills__first,
-    .descriptionAboutSkills__second {
-        flex-direction: column;
-        gap: 30px;
-    }
+    /*.descriptionAboutSkills__first,*/
+    /*.descriptionAboutSkills__second {*/
+    /*    flex-direction: column;*/
+    /*    gap: 30px;*/
+    /*}*/
 
     .progressBar {
         height: 40px;
